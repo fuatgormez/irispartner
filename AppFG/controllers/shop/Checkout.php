@@ -419,7 +419,6 @@ class Checkout extends CI_Controller
         }
 
         // print_r($this->cart->contents());exit;
-
         if ($valid == 1) {
 
             //Check if the Cart is empty!
