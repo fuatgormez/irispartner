@@ -236,6 +236,7 @@ $success_message = '';
                             <div class="header-row">
                                 <div class="header-logo">
                                     <a href="<?php echo base_url('home'); ?>">
+                                    aaaa
                                         <img alt="IRISPICTURE" width="186" height="100%" data-sticky-width="186" data-sticky-height="31" data-sticky-top="0" src="<?php echo base_url(); ?>public/uploads/<?php echo $setting['logo']; ?>">
                                     </a>
                                 </div>
