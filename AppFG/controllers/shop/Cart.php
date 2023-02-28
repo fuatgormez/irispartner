@@ -150,7 +150,8 @@ class Cart extends CI_Controller
 
                         $this->cart->product_name_rules = '[:print:]';
                         $this->cart->insert($product_data);
-                        
+                        //git test
+
                         //qty fazla gelirse tekrardan kontrol edip miktari 1 e set ediyoruz buraya sonradan tekrar bak
                         $this->check_gift_product_no_price();
 
