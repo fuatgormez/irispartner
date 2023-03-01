@@ -82,6 +82,8 @@ class Partner extends CI_Controller
 		$error = "Fehlermeldung! Bitte erneut versuchen.";
 
 		$this->session->set_flashdata('success', $success);
+
+		exit();
 		redirect(base_url('partner#partner'));
 	}
 }

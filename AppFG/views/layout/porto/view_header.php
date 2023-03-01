@@ -236,8 +236,7 @@ $success_message = '';
                             <div class="header-row">
                                 <div class="header-logo">
                                     <a href="<?php echo base_url('home'); ?>">
-                                    aaab
-                                        <img alt="IRISPICTURE" width="186" height="100%" data-sticky-width="186" data-sticky-height="31" data-sticky-top="0" src="<?php echo base_url(); ?>public/uploads/<?php echo $setting['logo']; ?>">
+                                        <img alt="Irispartner" width="186" height="100%" data-sticky-width="186" data-sticky-height="31" data-sticky-top="0" src="<?php echo base_url(); ?>public/uploads/<?php echo $setting['logo']; ?>">
                                     </a>
                                 </div>
                             </div>
@@ -268,8 +267,13 @@ $success_message = '';
                                 </div>
                                 <div class="header-nav-features header-nav-features-no-border header-nav-features-lg-show-border order-1 order-lg-2">
                                     <div class="header-nav-feature header-nav-features-cart d-inline-flex">
-                                        <?php if (base_url() === 'https://www.youririsfoto.be/') : ?>
                                         <select class="mx-2 border-0" onchange="location = this.value;">
+                                            <option value="<?php echo base_url('language/site/de'); ?>" <?php echo $this->session->userdata('site_language') === 'de' ? 'selected' : '';?>>
+                                                DE
+                                            </option>
+                                            <option value="<?php echo base_url('language/site/en'); ?>" <?php echo $this->session->userdata('site_language') === 'en' ? 'selected' : '';?>>
+                                                EN
+                                            </option>
                                             <option value="<?php echo base_url('language/site/be'); ?>" <?php echo $this->session->userdata('site_language') === 'be' ? 'selected' : '';?>>
                                                 BE
                                             </option>
@@ -277,7 +281,6 @@ $success_message = '';
                                                 NL
                                             </option>
                                         </select>
-                                        <?php endif; ?>
 
                                         <?php if (base_url(uri_string()) === base_url("home") || base_url(uri_string()) === base_url("shop")) : ?>
                                         <?php endif; ?>
