@@ -23,7 +23,7 @@ Hero Area End
                         <h3 class="title3">IRIS PHOTO BOX👁iris photography</h3>
                         <p><img src="<?php echo base_url('public/uploads/partner-01.jpg'); ?>"></p>
                         <iframe width="760" height="274" src="https://www.youtube.com/embed/FGSs1KEDdKU" title="IRIS PARTNER" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        <p><a href="<?php base_url('contact');?>" class="btn btn-success">Become a Partner</a></p>
+                        <p><a href="<?php echo base_url('contact');?>" class="btn btn-success">Become a Partner</a></p>
 
                         <h3 class="title3">INFO PARTNERSHIP</h3>
                         <p>Put iris box in your OFFICE, SHOP, HOME and wait for us to send you customers.</p>
