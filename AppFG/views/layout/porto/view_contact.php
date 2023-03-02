@@ -1,7 +1,7 @@
 <!--==============================
     page-header
 ============================== -->
-<section class="get-in-touch bg-color-after-secondary p-relative overflow-hidden" style="background-image: url('<?php echo base_url('public/uploads/' . $setting['banner_contact']); ?>'); background-size: cover; background-position: center; padding:130px">
+<section class="get-in-touch bg-color-after-secondary p-relative overflow-hidden" style="background-image: url('<?php echo base_url('public/uploads/' . $setting['banner_contact']); ?>'); background-size: cover; background-position: center; padding:10px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -15,8 +15,6 @@
 <!--==============================
 page-header end
 ============================== -->
-
-
 
 <!--==============================
 Contact Form Area
@@ -76,9 +74,7 @@ Contact Form Area
 
                     <p><?php echo $page_contact['contact_phone']; ?></p>
 
-                    <p>
-                        Hauptsitz: <br>
-                        <?php echo $page_contact['contact_address']; ?></p>
+                    <p>Hauptsitz: <br><?php echo $page_contact['contact_address']; ?></p>
                 </div>
             </div>
         </div><!-- first row end -->
